@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Havars</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--JS-->
+    <script src="script.js" type="text/javascript"></script>
+    <!--icon app-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+    <!--header and navbar-->
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="assets/Havars-woname.png"
+            alt="Havars Company Logo"
+            style="height: 40px; width: auto"
+          />
+          <h1>Havars</h1>
+        </div>
+        <input type="checkbox" id="menu-toggle" />
+        <div class="menu">
+          <!--label menu 3 bars-->
+          <label for="menu-toggle"></label>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="bars"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="bars-up"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3 4.5h14.25M3 9h9.75M3 13.5h5.25m5.25-.75L17.25 9m0 0L21 12.75M17.25 9v12"
+            />
+          </svg>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="home">
+        <img name="slider" class="imgSlide" />
+        <button class="prev-button" onclick="prevSlide()">&#10094;</button>
+        <button class="next-button "onclick="nextSlide()">&#10095;</button>
+        <h1>WELCOME TO HAVARS</h1>
+        <img src="assets/Havars-woname.png"
+          alt="Havars Company Logo"
+          class="logo-havars"/>
+        <p>Teknologi Hebat Pilihan Kita Semua</p>
+      </div>
+    </header>
+    <!--main content-->
+    <main>
+      <div id="content">
+        <!-- Product -->
+        <aside id="product">
+          <div class="title">
+          <h1>PRODUCT
+          <hr />
+          <h2>Our Products Coming Soon</h2>
+          </div>
+          <div class="container">
+            <div class="card">
+              <img src="assets/keyboard.png" alt="Product 1" />
+              <h2>Keyboard</h2>
+              <p>Kami akan menghadirkan berbagai jenis keyboard</p>
+            </div>
+            <div class="card">
+              <img src="assets/mouse.png" alt="Product 2" />
+              <h2>Mouse</h2>
+              <p>Kami akan menghadirkan berbagai jenis mouse</p>
+            </div>
+            <div class="card">
+              <img src="assets/monitor.png" alt="Product 3" />
+              <h2>Monitor</h2>
+              <p>Kami akan menghadirkan berbagai jenis monitor</p>
+            </div>
+            <div class="card">
+              <img src="assets/headphone.png" alt="Product 4" />
+              <h2>Headphone</h2>
+              <p>Kami akan menghadirkan berbagai jenis Headphone</p>
+            </div>
+        </aside>
+        <!-- Services -->
+        <article id="services">
+            <h2>Our Services</h2>
+            <ul>
+              <li><strong>Garansi 1 Tahun:</strong> Semua produk kami dilindungi garansi resmi selama 1 tahun.</li>
+              <li><strong>Custom Gear:</strong> Bisa pesan desain sesuai keinginan kamu (warna, logo, dll).</li>
+              <li><strong>Reseller Program:</strong> Gabung jadi reseller dan dapet harga spesial!</li>
+              <li><strong>Customer Support:</strong> Fast response via WhatsApp & Email 24/7.</li>
+            </ul>
+        </article>
+        <!-- About -->
+        <article id="about">
+            <h2>About Us</h2>
+              <p>Kami adalah brand teknologi lokal yang fokus pada produk-produk gaming berkualitas tinggi dengan harga terjangkau. Berdiri sejak 2025, kami percaya bahwa gear berkualitas tidak harus mahal.</p>
+              <p>Dengan semangat inovasi dan kreativitas anak muda Indonesia, kami hadir untuk memenuhi kebutuhan gamer dan content creator dari segala level.</p>
+        </article>
+      </div>
+    </main>
+        <!-- Contact Us -->
+        <footer id="contact">
+            <img src="assets/profile.png" alt="Profile" />
+            <h2>Contact Us</h2>
+              <p>Hubungi kami jika kamu punya pertanyaan, keluhan, atau mau kerja sama!</p>
+              <ul>
+                <li>Email: Varshahp2406@gmail.com</li>
+                <li>WhatsApp: 0896-9919-1558</li>
+              </ul>
+              <div class="social-icons">
+                <a href="https://instagram.com/vrshaa.m" target="_blank" title="Instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://tiktok.com/@vrshaa_2" target="_blank" title="TikTok">
+                  <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://youtube.com/@VarshaHadiPratama" target="_blank" title="YouTube">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://github.com/Varsha-2406" target="_blank" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linktr.ee/ElvarShah" target="_blank" title="Linktree">
+                  <i class="fas fa-link"></i>
+                </a>
+              </div>
+              </li>
+              <p>&copy; 2025 Havars Tech. All rights reserved.</p>
+        </footer>
+  </body>
+</html>
